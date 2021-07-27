@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="icon.png">
+<title>InpossLand</title>
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="obj3d" id="scene">
+    <div class="obj3d room" id="room">
+      <x-model class="obj3d model" src="n1.obj"></x-model>
+      <div class="obj3d room__floor"></div>
+    </div>
+  </div>
+  <div class="panel panel--help">
+    Use your cursor to look around and
+      <kbd class="key">W</kbd>
+      <kbd class="key">A</kbd>
+      <kbd class="key">S</kbd>
+      <kbd class="key">D</kbd>
+    to walk.
+  </div>
+  <div class="panel panel--about" id="message">
+    <cite>InpossLand was built by Savir Singh. The aim is to do anything you want. And it keeps getting better. Go for picnics, watch TV, or just walk around! <a target="_blank" href="/about">Learn more</a></cite>
+  </div>
+  <script src="blah.js"></script>
+  <script src="blah2.js"></script>
+  <script src="blah3.js"></script>
+  <script src="blah4.js"></script>
+  <script src="demo.js"></script>
+<script>
+function close() {
+  document.getElementById("message").style.display = "none";
+</body>
+</html>
